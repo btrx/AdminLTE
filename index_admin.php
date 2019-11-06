@@ -12,7 +12,7 @@ if(isset($_SESSION['id_admin'])==0){
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Admin</title>
+  <title>Super Admin</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -74,7 +74,7 @@ if(isset($_SESSION['id_admin'])==0){
           <img src="dist/img/anu.png" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Admin</p>
+          <p>Super Admin</p>
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
@@ -94,7 +94,7 @@ if(isset($_SESSION['id_admin'])==0){
             </span>
         </a>
         <ul class="treeview-menu">
-            <li><a href="index_admin.php?page=data_mahasiswa"><i class="glyphicon glyphicon-education"></i> <span>Data Mahasiswa</span></a></li>
+            <li><a href="index.php?page=data_admin"><i class="glyphicon glyphicon-education"></i> <span>Data Mahasiswa</span></a></li>
         </ul>
     </li>
     <li class="header">SETTING</li>
